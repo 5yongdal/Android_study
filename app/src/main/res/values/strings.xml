@@ -11,5 +11,11 @@
     <string name="new_crime">새로운 범죄</string>
     <string name="show_subtitle">서브타이틀 보기</string>
     <string name="hide_subtitle">서브타이틀 감추기</string>
-    <string name="subtitle_format">%1$s 건</string>
+    <plurals name="subtitle_plural">
+        <item quantity="one">%1$s 건</item>
+        <item quantity="other">%1$s 건들</item>
+    </plurals>
+    <string name="delete_crime">범죄 삭제</string>
+    <string name="crime_none_data">등록된 범죄 기록이 없습니다.</string>
+    <string name="crime_add_text">범죄 등록하기</string>
 </resources>
