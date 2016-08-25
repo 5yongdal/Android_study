@@ -15,14 +15,6 @@ import java.util.UUID;
  */
 public abstract class SingleFragmentActivity extends AppCompatActivity {
 
-    public static final String EXTRA_CRIME_ID = "me.goodi.criminalintent.crime_id";
-
-    public static Intent newIntent(Context packageContext, UUID crimeId) {
-        Intent intent = new Intent(packageContext, CrimePagerActivity.class);
-        intent.putExtra(EXTRA_CRIME_ID, crimeId);
-        return intent;
-    }
-
     protected abstract Fragment createFragment();
 
     @Override
